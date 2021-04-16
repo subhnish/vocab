@@ -1,0 +1,7 @@
+.inputField {
+    all: unset;
+    border-bottom:1px solid slategrey;
+    height: 2rem;
+    margin: 0 0 1rem 0;
+}
+

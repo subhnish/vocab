@@ -1,0 +1,18 @@
+.addbtn {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #E95670;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+  }
+
+.addbtn__font {
+    font-size: xx-large;
+}

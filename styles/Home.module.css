@@ -1,0 +1,35 @@
+.mainWrapper {
+  background-color: #483080;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.content {
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.wordsContainer {
+  background-color: white;
+  overflow-y: scroll;
+  height: 85vh;
+  box-sizing: content-box;
+}
+
+.innerContent {
+  background-color: white;
+  border-radius: 10px;
+  width: 1140px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .innerContent {
+    width: 100vw;
+  }
+}
+
+.heading1 {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
