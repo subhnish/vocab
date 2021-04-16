@@ -57,7 +57,7 @@ export default function WordModal(props) {
   return (
     <React.Fragment>
       <div>
-        <h2>{title}</h2>
+        <h1>{title}</h1>
         <div className={styles.wordInfo}><p>{renderResults}</p></div>
         <hr className={styles.hr} />
       </div>

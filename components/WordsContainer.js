@@ -10,12 +10,13 @@ import CloseIcon from '@material-ui/icons/Close';
 const useStyles = makeStyles((theme) => ({
     paper: {
         position: 'absolute',
-        top: "10px",
-        maxWidth: `${90}%`,
-        height: "fit-content",
+        top: "0",
+        maxWidth: `100vw`,
+        height: "100vh",
         backgroundColor: "white",
-        left: "5%",
-        right: "5%",
+        left: "0",
+        right: "0",
+        bottom: "0",
         padding: "1rem",
         margin: "0 auto",
     },
