@@ -6,7 +6,7 @@ import styles from "../styles/AddWordForm.module.css"
  const AddWordForm = (props) => {
    return(
    <div>
-     <h1>{props.title}</h1>
+     <h3>{props.title}</h3>
      <Formik
        initialValues={{ word: ''}}
        validate={values => {
@@ -29,7 +29,7 @@ import styles from "../styles/AddWordForm.module.css"
         Cancel
       </Button>
            <Button style={{margin: "0.5rem"}} variant="contained" color="primary" type="submit" disabled={isSubmitting}>
-        Submit
+        Add
       </Button>
          </Form>
        )}

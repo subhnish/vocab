@@ -1,5 +1,5 @@
 .mainWrapper {
-  background-color: #483080;
+  background-color:rgb(105, 0, 105);
   max-height: 100vh;
   overflow: hidden;
 }
@@ -18,7 +18,7 @@
 
 .innerContent {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 1140px;
   margin: auto;
 }
@@ -31,5 +31,6 @@
 
 .heading1 {
   font-size: 1.5rem;
-  margin: 0.5rem;
+  margin: 0 0.5rem;
+  padding-top: 0.5rem;
 }
