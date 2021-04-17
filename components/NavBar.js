@@ -38,7 +38,7 @@ export default function NavBar(props) {
   return (
     <React.Fragment>
       <div className={styles.nav}>
-        <h2 className={styles.header}>Vocab</h2>
+       { !searchClass ? <h2 className={styles.header}>Vocab</h2> : ""}
         <div className={styles.searchBar}>
           <IconButton aria-label="search">
           {  !searchClass ? <SearchIcon onClick={handleSearchBar} style={{ color: "white" }} /> :
